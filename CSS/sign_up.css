@@ -1,0 +1,210 @@
+/*body
+{
+	background-image: url('bg8.jpg');
+	
+}*/
+
+div.first
+{
+	
+	position: absolute;
+	height: 25vh;
+	width:20vw;
+	top: 14.5vh;
+	left: 25.6vw;
+	background-image: url('cake.jpg');
+	background-size: 100% 100%;
+}
+div.second
+{
+	position: absolute;
+	height: 25vh;
+	width:20vw;
+	top:19vh;
+	left: 5.4vw;
+	background-image: url('cutlet.jpg');
+	background-size: 100% 100%;
+
+}
+
+div.third
+{
+	position: absolute;
+	height:25vh;
+	width:20vw;
+	top:40vh;
+	left:25.6vw;
+	background-image: url('crepes.jpg');
+	background-size: 100% 100%;
+}
+
+div.fourth
+{
+	position: absolute;
+	height: 25vh;
+	width:20vw;
+	top:45vh;
+	left: 5.4vw ;
+	background-image: url('toast.jpg');
+	background-size: 100% 100%;
+
+}
+div.sign-in
+{
+	position: absolute;
+	left: 57vw;
+	background-color: white;
+	opacity: 0.75;
+	border: 10px solid gray;
+	border-style: double; 
+	height :85vh;
+	width:40vw;
+	top:10vh;
+
+}
+label.name
+{
+	
+	top: 15%;
+	
+	 
+}
+label.uname
+{
+	
+	
+	top: 25%;
+	
+
+}
+label.number
+{
+	
+	top: 35%;
+	
+}
+
+label.email
+{
+	
+	top: 44%;
+	
+
+}
+label.head
+{
+	position: absolute;
+	left:35%;
+	font-size: 40px;
+	font-family: "Bradley Hand ITC";
+	font-weight: bolder;
+	padding: 30px;
+} 
+
+label.password
+{
+	
+	
+	top: 52%;
+	
+
+}
+label.cpassword
+{
+	
+	
+	top: 62%;
+	
+
+}
+label.add
+{
+		top: 72%;
+}
+#txt
+{
+
+	font-family: "Baskerville Old Face",Arial;
+	/*font-size: 10%;*/
+	position: absolute;
+	font-weight: bold;
+	left: 10%;
+}
+#name
+{
+	position: absolute;
+	left: 42%;
+	top: 15%;
+	height:5%;
+	width:40%;
+}
+#uname
+{
+	position: absolute;
+	left: 42%;
+	top: 25%;
+	height:5%;
+	width:40%; 
+}
+#number
+{
+	position: absolute;
+	left: 42%;
+	top: 35%;
+	height:5%;
+	width:40%; 
+}
+#email
+{
+	position: absolute;
+	left: 42%;
+	top: 43%;
+	height:5%;
+	width:40%;
+}
+span.red
+{
+	color: red;
+}
+#password
+{
+	position: absolute;
+	left: 42%;
+	top: 52%;
+	height:5%;
+	width:40%;
+}
+#cpassword
+{
+	position: absolute;
+	left: 42%;
+	top: 62%;
+	height:5%;
+	width:40%;
+}
+#signup
+{
+	position: absolute;
+	left: 35%;
+	top: 87%;
+	height:10%;
+	width:30%;
+}
+#add
+{
+	position : relative;
+	left: 42%;
+	top: 72%;
+	height:10%;
+	width:40%;
+}
+#signup
+{
+	font-family: "Chaparral Pro Light";
+	font-size: 20px;
+	position:absolute;
+	top:87%;
+	left:35%;
+	height:10%;
+	width:30%;
+}

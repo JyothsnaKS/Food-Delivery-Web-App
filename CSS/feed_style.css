@@ -1,0 +1,70 @@
+#userfd{
+	position:relative;
+	top:10vh;
+}
+div[id^="fd"]{
+	position:relative;
+	padding:5px;
+	left:5vw;
+	background-color:#f7f7f7;
+	color:#a7a7a7;
+	border-radius:20px;
+	width:75vw;
+	margin-bottom:5vh;
+}
+textarea{
+	outline-color:black;
+	background-color:lightgray;
+}
+textarea:focus{
+	background-color:white;
+	outline-color:blue;
+}
+input[type=text]{
+	display:block;
+	margin-bottom:vh;
+	position: relative;
+	left: 5vw;
+	top:3vh;
+}
+input[id^="comsave"]{
+	position: relative;
+	margin-top:5vh;
+	left: 5vw;
+}
+input[id^="repsave"]{
+	position: relative;
+	margin-top:5vh;
+	left: 5vw;
+}
+
+textarea{
+	display:block;
+	margin-bottom:20px;
+	position: relative;
+	left: 5vw
+}
+
+.stat{
+	position:absolute;
+	top:4vh;
+	left:8vw;
+}
+input[id*="btnsave"]{
+	margin-top:18vh;
+	margin-left: 5vw;
+}
+input[id$="btnsave"]{
+	position: relative;
+	top: -15vh;
+	margin-top:15vh;
+	margin-left: 5vw;
+}
+
+input[id^="repbtn"]{
+	position:relative;
+	left:10vw;
+}
+fieldset{
+	display:none;
+}

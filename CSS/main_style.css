@@ -1,0 +1,157 @@
+/*Font styles*/
+*{font-size:25px;font-family:sans-serif;}
+
+/* The Overlay (background) */
+		.overlay { 
+			height: 100%;
+			width: 0;
+			position: fixed; 
+			z-index: 2; /* Sit on top */
+			left: 0;
+			top: 0;
+			background-color: rgba(211,211,211, 0.7); /* Black w/opacity */
+			overflow-x: hidden; /* Disable horizontal scroll */
+			transition: 0.5s; /* 0.5 second transition effect to slide in or slide*/
+		}
+
+		/* Position the content inside the overlay */
+		.overlay-content {
+			position: relative;
+			top: 25%; 
+			text-align: center; 
+			margin-top: 30px; 
+		}
+
+		/* The navigation links inside the overlay */
+		.overlay a {
+			padding: 8px;
+			text-decoration: none;
+			font-size: 36px;
+			color: rgba(93, 82, 82, 0.94);
+			margin-bottom: 20px;
+			display: block; 
+			transition: 0.3s; 
+		}
+
+		.overlay a:hover, .overlay a:focus {
+			color: white;
+		}
+
+		/* Position the close button (top right corner) */
+		.overlay .closebtn {
+			position: absolute;
+			top: 20px;
+			right: 45px;
+			font-size: 60px;
+		}
+
+		/*Top menu bar*/
+		#topHome{
+			position:fixed;
+			margin:auto;
+			//border-radius:20px;
+			top:0px;
+			//left:75px;
+			z-index:1;
+			width:100%;
+			height:75px;
+			background-color: rgb(223,27,41);
+			color:white;
+			font-family:sans-serif;
+			font-weight:bold;
+			font-size:30px;
+
+		}
+		#menuIcon{
+			position:absolute;
+			top:15px;
+			left:45px;
+			cursor: pointer;
+			
+		}
+		#name{
+			position:absolute;
+			top:20px;
+			left:150px;
+			font-size:40px;
+		}
+
+		/*Log In button*/
+		.button1 {
+			background-color:#FF5E5E;
+			border:none;
+			color: white;
+			position:absolute;
+			left:78vw;
+			top:10px;
+			padding:17px 28px;
+			margin:auto;
+			text-align:center;
+			font-size: 16px;
+			box-sizing:border-box;
+			box-shadow: 8px 8px 1px #800; 
+			cursor: pointer;
+		}
+		/*Log out*/
+		.button3 {
+			background-color:#FF5E5E;
+			border:none;
+			color: white;
+			position:absolute;
+			left: 83vw;
+			top: 2vh;
+			padding: 2vh 5vh;
+			margin:auto;
+			text-align:center;
+			font-size: 16px;
+			box-sizing:border-box;
+			box-shadow: 8px 8px 1px #800; 
+			cursor: pointer;
+		}
+		/*Sign Up button*/
+		.button2 {
+			background-color:#FF5E5E;
+			border:none;
+			color: white;
+			position:absolute;
+			left:87vw;
+			top:10px;
+			padding:17px 28px;
+			margin:auto;
+			text-align:center;
+			font-size: 16px;
+			box-sizing:border-box;
+			box-shadow: 8px 8px 1px #800;
+			cursor: pointer;
+		}
+
+		/*Button pressed effect*/
+		.button1:hover,.button2:hover{font-size:50%;}
+		
+		/*Foodicted Organisation information*/
+		#bottom{
+			background-color:rgb(223,27,41); 
+			position:relative;
+			height:285px;
+			width:100%;
+			top:500px;
+		}
+		
+		.bottom-content{
+			position:absolute;
+			top:30px;
+			left:25px;
+			font-size:15px;
+			text-decoration:bold;
+			font-family:sans-serif;
+			color:white;
+			margin-bottom:10px;
+		}
+		/*FB, Twitter & LinkedIn icons*/
+		.icons{
+			position:absolute;
+			top:125px;
+			left:25px;
+			cursor:pointer;
+		}
+		

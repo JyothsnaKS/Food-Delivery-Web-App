@@ -1,0 +1,129 @@
+/*body
+{
+	background-image: url("login_bg.jpg");
+	background-size: 100% ,60%;
+	font-family: "Chaparral Pro Light";
+	font-size:20px;
+	text-align: justify;
+
+}*/
+div.image
+{
+	background-image: url("login_bg.jpg");
+	background-size: 100% ,60%;
+	position: absolute;
+	width:45vw;
+	height: 39vh;
+	top: 30vh;
+	left: 20vh;
+}
+
+div.login
+{
+    position: absolute;
+    left: 57vw;
+    top: 30%;
+    height: 65%;
+    width: 35%;
+    border: solid 1px gray;
+    opacity: 0.7;
+    padding: 2%;
+    /* padding-right: 10px; */
+    /* background-color: white; */
+
+}
+h2.login
+{
+
+	font-family: "Chaparral Pro Light";
+	font-size: 50px;
+	font-weight: bolder;
+	text-align: center;
+}
+#email
+{	
+    position: absolute;
+    top: 43%;
+    left: 38%;
+    height: 5%;
+
+}
+#password
+{	
+    position: absolute;
+    left: 38%;
+    height: 5%;
+}
+#signin
+{
+	font-family: "Chaparral Pro Light";
+	font-size: 20px;
+	position:absolute;
+	top:70%;
+	left:35%;
+	height:15%;
+	width:30%;
+}
+a.text
+{
+	font-family: "Ariel";
+	font-size: 16px;
+	font-weight: bold ;
+	position: absolute;
+	left: 5%;
+	top: 92%;
+}
+a.text1
+{
+	font-family: "Ariel";
+	font-size: 100%;
+	font-weight: bold ;
+	position: absolute;
+	left: 80%;
+	top: 92%;
+}
+label.dets
+{
+	position: absolute;
+	left:15%;.
+}
+a.text:link {
+    color: black;
+}
+
+/* visited link */
+a.text:visited {
+    color: gray;
+}
+
+/* mouse over link */
+a.text:hover {
+    color: red;
+}
+
+/* selected link */
+a.text:active {
+    color: green;
+}
+a.text:link {
+    color: black;
+}
+
+/* visited link */
+a.text1:visited {
+    color: gray;
+}
+a.text1:link {
+    color: black;
+}
+
+/* mouse over link */
+a.text1:hover {
+    color: red;
+}
+
+/* selected link */
+a.text1:active {
+    color: green;
+}
+

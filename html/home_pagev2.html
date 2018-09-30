@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="main_style.css">
+		<title>Foodicted</title>
+		<style>
+		
+			* {box-sizing:border-box}
+			body {font-family:sans-serif;}
+
+			/* Slideshow container */
+			.slideshow-container {
+			  max-width: 1000px;
+			  position: relative;
+			  margin: auto;
+			  margin-top:200px;
+			}
+
+			/* Caption text */
+			.text {
+			  color: #f2f2f2;
+			  font-size: 15px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  bottom: 8px;
+			  width: 100%;
+			  text-align: center;
+			}
+
+			/* Number text (1/3 etc) */
+			.numbertext {
+			  color: #f2f2f2;
+			  font-size: 12px;
+			  padding: 8px 12px;
+			  position: absolute;
+			  top: 0;
+			}
+
+			/* The dots/bullets/indicators */
+			.dot {
+			  height: 13px;
+			  width: 13px;
+			  margin: 0 2px;
+			  background-color: #bbb;
+			  border-radius: 50%;
+			  display: inline-block;
+			  transition: background-color 0.6s ease;
+			}
+
+			.active {
+			  background-color: #f2f2f2;
+			}
+
+			/* Fading animation */
+			.fade {
+			  animation-name: fade;
+			  animation-duration: 1.5s;
+			}
+
+			@-webkit-keyframes fade {
+			  from {opacity: .4}
+			  to {opacity: 1}
+			}
+
+			@keyframes fade {
+			  from {opacity: .4}
+			  to {opacity: 1}
+			}
+
+			.dropdown input[type=text]{
+				background-color: #f9f9f9;
+				border:1px solid red;
+				position:relative;
+				top: 450px;
+				left: 2vw;
+				width: 60%;
+				padding: 12px 20px;
+				margin: auto;
+				box-sizing: border-box;
+				font-size:2ex;
+			}
+						
+
+			.dropdown {
+				position: absolute;
+				top:720px;
+				left:400px;
+				width:50%;
+				display: inline-block;
+			}
+
+			.dropdown-content {
+				display: none;
+				position: relative;
+				top: 420px;
+				left: 2vw;
+				background-color: #ff5e5e;
+				width: 60%;
+			}
+
+			.dropdown-content p {
+				color: black;
+				padding: 12px 16px;
+				display: block;
+			}
+
+			.dropdown-content p:hover {background-color: lightgray}
+
+			.dropdown:hover .dropdown-content {
+				display:block;
+			}
+
+			#show{
+			    position: relative;
+				top: 250px;
+				left: 57vw;
+				padding: 20px 10px;
+				background-color: #6638ab;
+				color:white;
+				border-radius:10px;
+				transition-property:all;
+				transition-duration:0.2s;
+				transition-timing-function:ease-out;
+			}
+			
+			#show:hover{transform:scale(1.1);}
+			
+			.note{
+				    position: relative;
+					top: 100px;
+					left: 25vw;
+					border: 1px solid red;
+					box-shadow: gray;
+					padding: 20px 10px;
+					width: 800px;
+					height: 250px;
+					color: black;
+			}
+			.note hr{border:2px solid red;}
+		</style>
+	</head>
+	
+	<body>		
+		
+		</div><div id="myNav" class="overlay">
+
+		<!-- Button to close the overlay navigation.void(0) evaluates to undefined and redirects browser to the same page -->
+		<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+
+		<!-- Overlay content -->
+		<div class="overlay-content">
+		<a href="#">About</a>
+		<a href="#">Food Delivery</a>
+		<a href="#">Table Reservation</a>
+		</div>
+
+		</div>
+		
+		<div id="topHome">
+			<div id="menuIcon" onclick="openNav()"><img src="home.png" height="40px" width="40px"/></div>
+			<div id="name">Foodicted</div>
+		<?php
+			session_start();
+			echo("<h1>PHP Session Demo</h1>");
+			if(isset($_SESSION["username"]))
+				echo "<h3>".$_SESSION["username"]."</h3><button class=\"button2\">SIGN OUT</button>";
+			else
+				echo "<button class="button1">LOG IN</button>
+					  <button class="button2">SIGN UP</button>";
+					
+		?>
+			<button class="button2">SIGN UP</button>
+		</div>
+		<script>
+			function openNav() {
+				document.getElementById("myNav").style.width = "25%";
+			}
+
+			function closeNav() {
+				document.getElementById("myNav").style.width = "0%";
+			}
+		</script>
+			
+		<div class="slideshow-container">
+			<div class="mySlides fade">
+			  <div class="numbertext">1 / 3</div>
+			  <img src="f1.jpg" style="height:400px;width:1000px">
+			  <div class="text">Caption Text</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">2 / 3</div>
+			  <img src="f2.jpg" style="height:400px;width:1000px">
+			  <div class="text">Caption Two</div>
+			</div>
+
+			<div class="mySlides fade">
+			  <div class="numbertext">3 / 3</div>
+			  <img src="f3.jpg" style="height:400px;width:1000px">
+			  <div class="text">Caption Three</div>
+			</div>
+
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <div class="dot"></div>
+		  <div class="dot"></div>
+		  <div class="dot"></div>
+		</div>
+
+		<script>
+			var slideIndex = 0;
+			showSlides();
+
+			function showSlides() {
+				var i;
+				var slides = document.getElementsByClassName("mySlides");
+				var dots = document.getElementsByClassName("dot");
+				for (i = 0; i < slides.length; i++) {
+				   slides[i].style.display = "none";
+				}
+				slideIndex++;
+				if (slideIndex> slides.length) {slideIndex = 1}
+				for (i = 0; i < dots.length; i++) {
+					dots[i].className = dots[i].className.replace(" active", "");
+				}
+				slides[slideIndex-1].style.display = "block";
+				dots[slideIndex-1].className += " active";
+				setTimeout(showSlides, 3000); // Change image every 3 seconds
+			}
+		</script>
+		<div class="note">
+			<span style="color:rgb(223,27,41)"><strong>Welcome Foodies !</strong><span>
+			<hr>
+			<p>Welcome to the Foodicted site. Here you can find all that can please you taste buds. Hope you enjoy our services.
+			</p>
+		</div>
+
+		<div class="dropdown">
+			<form><input type="text" id="fname" name="fname" placeholder="   Enter your city  "/></form>
+			<div class="dropdown-content">
+				<p>Bangalore</p>
+				<p>Mumbai</p>
+				<p>Pune</p>
+			</div>
+		</div>
+		
+		<button id="show">SHOW RESTAURANTS</button>
+
+		<div id="bottom">
+			<div class="bottom-content">
+				FreshBooks, 1655 Dupont St. Suite 250, Toronto, ON M6P 3T1 Canada <br>
+				Copyright &#169 2016-2020 Foodicted is a service of 2ndSite Inc. All rights reserved.<br>
+			</div>
+			
+			<div class="icons">
+				<img class="fb" src="fb_white.png" height="40px" width="40px" style="margin-left:50px;"/>
+				<img class="t" src="twit_w.png" height="40px" width="40px" style="margin-left:50px;"/>
+				<img class="li" src="in_w.png" height="40px" width="40px" style="margin-left:50px;"/>
+			</div>
+		</div>
+	</body>
+</html>

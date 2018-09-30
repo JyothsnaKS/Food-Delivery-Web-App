@@ -1,0 +1,28 @@
+		#topHome{
+				position:fixed;
+				margin:auto;
+				border-radius:20px;
+				top:0px;
+				left:60px;
+				z-index:1;
+				width:90%;
+				height:100px;
+				background-color: #FF5E5E;
+				color:white;
+				font-weight:bold;
+			}
+			#name{
+				position:absolute;
+				top:25px;
+				left:100px;
+			}
+
+			
+			#bottom{
+				background-color:lightgray;
+				position:absolute;
+				height:50%;
+				width:100%;
+				top:1000px;
+			}
+	
