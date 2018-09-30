@@ -1,0 +1,176 @@
+form
+{
+	border:solid 1px black ; 
+	background-color:rgb(242,1,1); 
+	display:block;
+	padding:2%;
+	border-radius:3%;
+	width:50%;
+	position : absolute;
+	left:25vw;
+	height:17%;
+	/*top:30%;*/
+	color:white;
+	font-weight: bold;
+	font-family: sans-serif;
+}
+
+.tdivs
+{
+	/*height: 40%;*/
+	height: 40%;
+	position: absolute;
+	left:5vw;
+	display:inline-block;
+	padding:1%;
+	width: :30%;
+	margin: 1%; 
+	top:5vh;
+	/*background-color:yellow; */
+}
+.pdivs
+{
+	/*height: 40%;*/
+	height: 40%;
+	position: absolute;
+	left:27vw;
+	display:inline-block;
+	padding:1%;
+	width: :30%;
+	margin: 1%; 
+	top:5vh;
+	/*background-color:yellow; */
+}
+.rdivs
+{
+	/*height: 40%;*/
+	height: 40%;
+	position: absolute;
+	left:40vw;
+	display:inline-block;
+	padding:1%;
+	width: :30%;
+	margin: 1%; 
+	top:5vh;
+	/*background-color:yellow; */
+}
+.placedivs
+{
+	/*height: 40%;*/
+	height: 40%;
+	position: absolute;
+	display:inline-block;
+	padding:1%;
+	width: :30%;
+	margin: 1%; 
+	left:15vw;
+	top:5vh;
+	/*background-color:yellow; */
+}
+#place_label
+{
+	
+	display: inline-block;
+	font-weight: bold;
+	font-family: sans-serif;
+	position: absolute;
+	left:18vw;
+
+}
+#price_l
+{
+	display: inline-block;
+	font-weight: bold;
+	font-family: sans-serif;
+	position: absolute;
+	left:29vw;
+}
+#rl
+{
+	display: inline-block;
+	font-weight: bold;
+	font-family: sans-serif;
+	position: absolute;
+	left:42vw;
+}
+
+#tl
+{
+	display: inline-block;
+	font-weight: bold;
+	font-family: sans-serif;
+	position: absolute;
+	left:8vw;
+	}
+#sub
+{
+	display: inline-block;
+	position: absolute;
+	left: 15vw;
+	top:18vh;
+	height: 5vh;
+	width: 10vw;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	border: none;
+}
+#reset
+{
+	display: inline-block;
+	position: absolute;
+	left: 26vw;
+	top:18vh;
+	height: 5vh;
+	width: 10vw;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	border: none;
+}
+.child 
+{
+	border: none;
+	width:15vw;
+	height: 15vh;
+	display: inline-block;
+	margin:20px;
+	color:black;
+	padding: 1%;
+	background-color: rgb(235,66,66);
+	color:white;
+	font-weight: bold;
+	text-align: center;
+}
+
+#def
+{
+	/*border: 1px solid black;*/
+	position: absolute;
+	top:30%;
+	height: 30%;
+	width:90%;
+	padding: 1%;
+	
+}o
+#def p
+{
+	position: relative;
+	top:35%;
+	left:45%;
+	font-size: 20px;
+	font-weight: bold;
+}
+#order_btn
+{
+	display: block;
+	position: relative;
+	left:15%;
+	
+	height: 5vh;
+	width: 10vw;
+	background-color: black;
+	color: white;
+	font-family: sans-serif;
+	border: none;
+}

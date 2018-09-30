@@ -1,0 +1,192 @@
+.header
+{
+	width:98vw;
+	height: 7vh;
+	background-color: red;
+	color: white;
+	padding: 1%
+	
+	
+
+}
+.header p
+{
+	font-weight: bolder;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	position: absolute;
+	left: 45%;
+}
+.or_menu
+{
+	border: 1px solid black;
+	position: absolute;
+	width:45%;
+	left:29%;
+	top: 17%;
+	height:50%;
+}
+
+.or
+{
+	display:block;
+	font-size: 200%;
+	position: absolute;
+	text-align: center;
+	color:white;
+	background-color: black;
+	width:100%;
+}
+#soup
+{
+	position:absolute;
+	top: 40%;
+	left:5%;
+
+}
+#sl
+{
+	position:absolute;
+	top: 40%;
+	left:10%;
+}
+#soup_qty
+{
+	position:absolute;
+	top: 39%;
+	left:70%;
+	height:6%;
+	width:3%;
+}
+#s_label
+{
+	position:absolute;
+	top: 40%;
+	left:50%;
+	height:6%;
+	
+}
+#oname
+{
+	position:absolute;
+	top: 25%;
+	left:15%;
+	font-weight: bold;
+}
+#pname
+{
+	position:absolute;
+	top: 25%;
+	left:50%;
+	font-weight: bold;
+
+}
+#qname
+{
+	position:absolute;
+	top: 25%;
+	left:70%;
+	font-weight: bold;
+}
+
+hr
+{
+	position:relative;
+	top:19%;
+	width:80%;
+	left:-2%;
+}
+#starter_qty
+{
+	position:absolute;
+	top: 53%;
+	left:70%;
+	height:6%;
+	width:3%;
+}
+#st_label
+{
+	position:absolute;
+	top: 53%;
+	left:50%;
+	height:6%;
+}
+#starter
+{
+	position:absolute;
+	top: 53%;
+	left:5%;
+
+}
+#stl
+{
+	position:absolute;
+	top: 53%;
+	left:10%;
+
+}
+#mc_qty
+{
+	position:absolute;
+	top: 65%;
+	left:70%;
+	height:6%;
+	width:3%;
+}
+#m_label
+{
+	position:absolute;
+	top: 65%;
+	left:50%;
+	height:6%;
+}
+#main-course
+{
+	position:absolute;
+	top: 65%;
+	left:5%;
+}
+#mcl
+{
+	position:absolute;
+	top: 65%;
+	left:10%;
+}
+#dessert_qty
+{
+	position:absolute;
+	top: 77%;
+	left:70%;
+	height:6%;
+	width:3%;
+}
+#d_label
+{
+	position:absolute;
+	top: 77%;
+	left:50%;
+	height:6%;
+
+}
+#dessert
+{
+	position:absolute;
+	top: 77%;
+	left:5%;
+}
+#desl
+{
+	position:absolute;
+	top: 77%;
+	left:10%;
+}
+#sub
+{
+	position: absolute;
+	left:25%;
+	top:87%;
+	border: none;
+	height: 10%;
+	width: 40%;
+	background-color:rgb(50,205,50);
+}
